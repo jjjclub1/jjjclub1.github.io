@@ -1,0 +1,80 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header, footer {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+main {
+    background-color: #141414;
+}
+
+.position:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    background: #004085;
+}
+
+footer a:hover, #chatbot:hover {
+    color: #0056b3;
+    background: #004085;
+}
+
+#chatbox {
+    width: 300px;
+}
+
+.hidden {
+    display: none;
+}
+
+#modal {
+    display: none; /* 초기에는 모달을 숨깁니다 */
+}
+
+#modal.show {
+    display: flex; /* 모달을 보여줄 때 flex로 표시합니다 */
+}
+
+#modal .modal-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+#modal .modal-content h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+#modal .modal-content p {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+#modal .modal-content button {
+    margin: 0 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
